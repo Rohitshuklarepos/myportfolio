@@ -1,0 +1,21 @@
+.contactSection {
+    padding-top: 3rem;
+    padding: 40px 20vw 0px 20vw;
+  }
+  .contactH1 {
+    color: #ff80bf !important;
+    font-weight: 600;
+  }
+  
+  .linkColor {
+    color: #ffca80 !important;
+  }
+  @media only screen and (max-width: 600px) {
+    .contactSection {
+      padding: 20px 2vw 0px 2vw;
+    }
+    p,u,li{
+      font-size: 12px;
+    }
+  
+  }

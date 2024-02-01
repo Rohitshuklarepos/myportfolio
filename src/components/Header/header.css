@@ -1,0 +1,58 @@
+.headerContainer {
+    padding: 50px 80px !important;
+  }
+  .headerContainer h1:first-of-type {
+    padding-top: 5rem;
+  }
+  .headerContainer h1 {
+    font-size: 3.1rem;
+  }
+  .headerContainer p:first-of-type {
+    font-size: 18px;
+  }
+  .myName {
+    color: coral !important;
+    font-weight: 600;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .headerContainer {
+      padding: 0px 10px !important;
+    }
+    .headerContainer h1 {
+      font-size: 1.5rem;
+      
+    }
+    .headerContainer h1:first-of-type{
+      padding-top: 2rem;
+      text-align: center;
+    }
+    .headerContainer h1:nth-child(2){
+      padding-bottom: 12px;
+      padding: 1px 12px 12px 12px;
+      text-align: center;
+      
+    }
+    .headerContainer p:first-of-type{
+      padding: 10px 17px 0px 17px;
+      font-size: 14px;
+      text-align: center;
+    }
+  
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+  }

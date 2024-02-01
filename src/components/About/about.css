@@ -1,0 +1,11 @@
+.lineHeight {
+    line-height: 1.9 !important;
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .lineHeight,.techName{
+        font-size: 13px;
+    }
+
+    }
