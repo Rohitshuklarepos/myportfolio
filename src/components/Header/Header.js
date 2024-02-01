@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 import "./header.css";
 import { motion } from "framer-motion";
 import Headerimg from '../../assets/images/header.svg';
-import InstagramImg from '../../assets/images/social-icons/instagram2.svg'
+// import InstagramImg from '../../assets/images/social-icons/instagram2.svg'
 import GitImg from '../../assets/images/social-icons/github2.png'
 import LinkedinImg from '../../assets/images/social-icons/linkedin3.svg'
 export default function Header() {
@@ -54,8 +54,8 @@ export default function Header() {
               iMentus Technologies as a Software Engineer.
             </p>
             <div className="d-flex justify-content-center justify-content-md-start">
-              <a
-                href="https://www.instagram.com/____mango____man/"
+              {/* <a
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -66,8 +66,8 @@ export default function Header() {
                   className="rounded-3 img-fluid mx-2"
                   alt=""
                 />
-              </a>
-              <a href="https://github.com/santosh214" target="_blank" 
+              </a> */}
+              <a href="https://github.com/Rohitshuklarepos" target="_blank" 
                 rel="noreferrer"
                 >
                 <img
@@ -79,13 +79,13 @@ export default function Header() {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/santosh-singhh/"
+                href="https://www.linkedin.com/in/rohit-shukla-511549227/"
                 target="_blank"
                 rel="noreferrer"
 
               >
                 <img
-                  src={InstagramImg}
+                  src={LinkedinImg}
                   width={50}
                   height={50}
                   className="rounded-3 img-fluid mx-2"
